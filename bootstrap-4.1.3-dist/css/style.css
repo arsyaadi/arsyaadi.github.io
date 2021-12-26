@@ -1,0 +1,111 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+header{
+    background: url("../../img/cossete.jpeg");
+    background-size: cover;
+    background-position: 50%;
+    min-height: 700px;
+}
+
+.jumbotron{
+    margin-top: 30px;
+    min-height: 500px;
+    background: linear-gradient(rgb(255,193,7),rgba(255,193,7,.3));
+    min-height: 700px;
+    
+}
+
+hr{
+    width: 250px;
+    border-top: 5px solid black;
+}
+
+#about{
+    background-color: #F0E9D2;
+}
+
+.about{
+    margin-top: -23px;
+}
+
+#service{
+    background-color: #EED7CE;
+}
+
+section{
+    min-height: 700px;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+
+section #portfolio{
+    padding-top: -300px;
+}
+
+section #testimoni{
+    min-height: 200px;
+}
+
+.tombol{
+    width: 110px;
+    margin-top: 120px;
+    height: auto;
+}
+
+#portfolio{
+    background-color: #EADEDE;
+    margin-top: -50px;
+}
+
+#testimoni{
+    background-color: #FFC107;
+    min-height: 500px;
+}
+
+#contact{
+    background-color: #F1F7E7;
+    padding-top: -50px;
+}
+
+#footer{
+    background-color: #F05454;
+    height: 180px;
+}
+
+.social-rounded{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background-color: white;
+    color: #F05454;
+    text-align: center;
+    line-height: 50px;
+}F05454
+
+.social-rounded:hover{
+    background-color: black;
+    color: white;
+}
+
+.navigasi{
+    /* jangan menggunakan height,karna bakal membuat navbar colapsnya trasnparant */
+    /* height: 80px; */
+    min-height: 80px;
+    background-color: #FCBD0E;
+}
+
+/* overflow card */
+.card-body{
+    overflow: auto;
+}
+
+.card img{
+    border-radius: 10px;
+}
+
+/* toggle colaps */
