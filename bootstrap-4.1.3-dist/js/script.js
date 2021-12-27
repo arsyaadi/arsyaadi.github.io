@@ -9,6 +9,5 @@ navItem.forEach(el => {
             }
         })
         e.target.classList.toggle('active')
-        // console.log('ok')
     })
 });
